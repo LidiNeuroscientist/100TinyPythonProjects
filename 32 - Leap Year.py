@@ -13,7 +13,7 @@ if ano == 0:
     ano = date.today().year
     print('\033[32mThe current year: {}\033[m'.format(ano))
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print('\033[33mThis is a LEAP year\033[m')
+    print('\033[33mThis IS a LEAP year\033[m')
 else:
     print('\033[35mThis is NOT a LEAP year\033[m')
 print('-=-' * 20)

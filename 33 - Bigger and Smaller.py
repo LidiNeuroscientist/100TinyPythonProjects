@@ -16,7 +16,6 @@ elif n2 > n1 and n2 > n3:
     print('The \033[1;97mBIGGEST\033[m number is \033[1;97m{}\033[m'.format(n2))
 else:
     print('The \033[1;97mBIGGEST\033[m number is \033[1;97m{}\033[m'.format(n3))
-
 if n1 < n3 and n1 < n2:
     print('The \033[1;97mSMALLEST\033[m number is \033[1;97m{}\033[m'.format(n1))
 elif n2 < n3:
@@ -61,18 +60,15 @@ print('-*-' * 20)
 a = int(input('Type n1: '))
 b = int(input('type n2: '))
 c = int(input('Type n3: '))
-
-menor = a  # ja assume que o A é o menor e testa a outras hipoteses
+minor = a  # test the hypothesis that A is minor
 if b<a and b<c:
-    menor = b
+    minor = b
 if c<a and c<b:
-    menor = c
-
-maior = a  # agora para verificar o amior se faz o mesmo
+    minor = c
+maior = a  # test the hypothesis that A is the biggest number
 if b>a and b>c:
     maior = b
 if c>a and c>b:
     maior = c
-
-print('The \033[1;97mSMALLEST\033[m number is \033[1;97m{}\033[m'.format(menor))
+print('The \033[1;97mSMALLEST\033[m number is \033[1;97m{}\033[m'.format(minor))
 print('The \033[1;97mBIGGEST\033[m number is \033[1;97m{}\033[m'.format(maior))

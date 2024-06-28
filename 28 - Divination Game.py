@@ -6,18 +6,18 @@ by the computer.
 
 The program should write on the screen whether the user won or lost '''
 
+
 import random
 from time import sleep
 computer = random.randint(0, 5)
 print('-=-' * 22)
-print('\033[33mI will think in a number between 0 and 5. Try to guess it ....\033[m')
+print('\033[1;33mI will think in a number between 0 and 5. Try to guess it '
+      '....\033[m')
 print('-=-' * 22)
 user = int(input('Which number did I think? '))
 print('\033[1;31mPROCESSING ....')
 sleep(2)
-
 print('\033[mI choose: {}'.format(computer))
-
 if computer == user:
     print('\033[1;33mYOU WON !!!')
 else:
