@@ -10,7 +10,7 @@ until 20 years: SENIOR
 above 20 years: MONSTER '''
 
 
-print('\033[1;97m--' * 10, '🏊🏻SWIMMING CLASSIFICATION','--' * 10 )
+print('\033[1;97m--' * 10, '🏊🏻SWIMMING AGE CLASSIFICATION','--' * 10 )
 import datetime
 y = int(input('Type your YEAR of birth:\033[m '))
 now = datetime.date.today().year

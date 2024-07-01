@@ -20,26 +20,29 @@ time.sleep(1)
 print('KEN ✂️')
 time.sleep(1)
 print('PO 🪨\033[m')
+time.sleep(1)
 print('--' * 25)
 if u == 1 and c == 2:
-    print('You choose \033[1;34mPAPER\033[m \nI picked \033[1;32mSCISSOR\033[m \n\033[1;31mYOU LOST\033[m')
+    print('You chose \033[1;34mPAPER\033[m \nI picked \033[1;32mSCISSOR\033[m \n\033[1;31mYOU LOST\033[m')
 elif u == 2 and c == 3:
-    print('You choose \033[1;32mSCISSOR\033[m \nI picked \033[1;35mSTONE\033[m \n\033[1;31mYOU LOST\033[m')
+    print('You chose \033[1;32mSCISSOR\033[m \nI picked \033[1;35mSTONE\033[m \n\033[1;31mYOU LOST\033[m')
 elif u == 3 and c == 1:
-    print('You choose \033[1;35mSTONE\033[m \nI picked \033[1;34mPAPER\033[m \n\033[1;31mYOU LOST\033[m')
+    print('You chose \033[1;35mSTONE\033[m \nI picked \033[1;34mPAPER\033[m \n\033[1;31mYOU LOST\033[m')
 elif u == 1 and c == 3:
-    print('You choose \033[1;34mPAPER\033[m \nI picked \033[1;35mSTONE\033[m '
+    print('You chose \033[1;34mPAPER\033[m \nI picked \033[1;35mSTONE\033[m '
           '\n\033[1;32mYOU WON\033[m')
 elif u == 2 and c == 1:
-    print('You choose \033[1;32mSCISSOR\033[m \nI picked \033[1;34mPAPER\033['
+    print('You chose \033[1;32mSCISSOR\033[m \nI picked \033[1;34mPAPER\033['
           'm \n\033[1;32mYOU WON\033[m')
 elif u == 3 and c == 2:
-    print('You choose \033[1;35mSTONE\033[m \nI picked \033[1;32mSCISSOR\033['
+    print('You chose \033[1;35mSTONE\033[m \nI picked \033[1;32mSCISSOR\033['
           'm \n\033[1;32mYOU WON\033[m')
 elif u == c:
     if u == c == 1:
-        print('You choose \033[1;34mPAPER\033[m \nI picked \033[1;34mPAPER\033[m \n\033[1;33mITS A DRAW\033[m')
+        print('You chose \033[1;34mPAPER\033[m \nI picked \033[1;34mPAPER\033[m \n\033[1;33mITS A DRAW\033[m')
     elif u == c == 2:
-        print('You choose \033[1;32mSCISSOR\033[m \nI picked \033[1;32mSCISSOR\033[m \n\033[1;33mITS A DRAW\033[m')
+        print('You chose \033[1;32mSCISSOR\033[m \nI picked \033[1;32mSCISSOR\033[m \n\033[1;33mITS A DRAW\033[m')
     elif u == c == 3:
-        print('You choose \033[1;35mSTONE\033[m \nI picked \033[1;35mSTONE\033[m \n\033[1;33mITS A DRAW\033[m')
+        print('You chose \033[1;35mSTONE\033[m \nI picked \033[1;35mSTONE\033[m \n\033[1;33mITS A DRAW\033[m')
+else:
+    print('\033[1;97mINVALID MOVE. PLEASE TYPE A VALID NUMBER\033[m')

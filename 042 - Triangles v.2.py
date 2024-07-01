@@ -19,7 +19,7 @@ if l1 < l2 + l3 and l2 < l1 + l3 and l3 < l1 + l2:
     print('The measurements form a TRIANGLE', end=' ')
     if l1 == l2 == l3:
         print('EQUILATERAL')
-    elif l1 != l2 != l3:
+    elif l1 != l2 != l3 != l1:
         print('SCALENE')
     else:
         print('ISOSCELES')

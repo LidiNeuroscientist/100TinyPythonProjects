@@ -9,11 +9,11 @@ the message:
 
 print('-+-' * 19)
 n1 = int(input('Type NUMBER 1: '))
-n2 = int(input('Type number 2: '))
+n2 = int(input('Type NUMBER 2: '))
 if n1 > n2:
     print('The FIRST number {} is the highest'.format(n1))
 elif n2 > n1:
     print('The SECOND number {} is the highest'.format(n2))
-elif n1 == n2:
+else:
     print('The FIRST and SECOND numbers are igual')
 print('-+-' * 19)

@@ -11,8 +11,8 @@ enlistment
 P.S consider the age of 18 for military enlistment '''
 
 
-print('-=-' * 10, '👮🏻‍\033[1;32mMILITARY SERVICE\033[m 🧑🏻‍🏭', '-=-' * 10,)
 import datetime
+print('-=-' * 10, '👮🏻‍\033[1;32mMILITARY SERVICE\033[m 🧑🏻‍🏭', '-=-' * 10,)
 bd = int(input('\033[1;97mEnter your YEAR of birth:\033[m '))
 today = datetime.date.today().year
 a = today - bd
